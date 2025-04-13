@@ -2,5 +2,36 @@ body {
   background-color: rgb(249, 194, 255);
 }
 nav {
+  display: inline-block;
+  text-align: center;
   font-size: 1.2rem;
+}
+nav ul {
+  width: 50%;
+  margin-left: -19.2px;
+  display: flex;
+  align-content: space-around;
+}
+nav li {
+  margin: 5px;
+  list-style-type: none;
+}
+nav a {
+  text-decoration: none;
+}
+header {
+  text-align: center;
+  width: 100%;
+}
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.ytframe {
+  width: 50%;
+  align-self: flex-end;
+}
+.maps {
+  width: 50%;
 }
