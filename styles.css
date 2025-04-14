@@ -8,7 +8,7 @@ nav {
 }
 nav ul {
   width: 50%;
-  margin-left: -19.2px;
+  margin-left: -117px;
   display: flex;
   align-content: space-around;
 }
@@ -20,8 +20,19 @@ nav a {
   text-decoration: none;
 }
 header {
+  background-color: rgb(14, 16, 15);
   text-align: center;
   width: 100%;
+}
+h1 {
+  justify-content: center;
+  display: flex;
+  margin-bottom: 1px;
+  color: rgb(10, 181, 232);
+  font-size: 5rem;
+}
+h1 img {
+  height: 8rem;
 }
 main {
   width: 100%;
@@ -30,8 +41,33 @@ main {
 }
 .ytframe {
   width: 50%;
-  align-self: flex-end;
+  height: 50vh;
+  text-align: center;
 }
+
 .maps {
   width: 50%;
+  height: 50vh;
+}
+.mapcontainer {
+  display: flex;
+}
+p {
+  width: 50%;
+  justify-content: center;
+  align-content: center;
+  margin: 0 10%;
+}
+
+.p1 {
+  align-self: flex-end;
+  display: flex;
+}
+
+form {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
 }
