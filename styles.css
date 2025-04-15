@@ -17,12 +17,18 @@ nav li {
   list-style-type: none;
 }
 nav a {
-  text-decoration: none;
+  color: rgb(10, 181, 232);
+}
+nav ul li a:hover {
+color: white;  text-decoration: underline;
 }
 header {
   background-color: rgb(14, 16, 15);
   text-align: center;
   width: 100%;
+}
+footer{
+  text-align: center;
 }
 h1 {
   justify-content: center;
@@ -42,6 +48,7 @@ main {
 .ytframe {
   width: 50%;
   height: 50vh;
+  margin: 20px 40px;
   text-align: center;
 }
 
@@ -50,6 +57,7 @@ main {
   height: 50vh;
 }
 .mapcontainer {
+  margin: 20px 40px;
   display: flex;
 }
 p {
@@ -57,6 +65,9 @@ p {
   justify-content: center;
   align-content: center;
   margin: 0 10%;
+  font-size: xx-large;
+  font-weight: bolder;
+  fon
 }
 
 .p1 {
@@ -66,8 +77,31 @@ p {
 
 form {
   width: 50%;
+  margin-top: 10px;
   display: flex;
-  justify-content: center;
-  align-content: center;
+  /* justify-content: center; */
+  /* align-content: center; */
   flex-direction: column;
+  text-align: center;
 }
+.earrings {
+  width: 35%;
+  height: auto;
+  display: flex;
+  margin: 10px 0;
+}
+.racing {
+  width: 35%;
+  height: auto%;
+  margin: 10px 0;
+  align-self: flex-end;
+  display: flex;
+}
+.welding {
+  width: 35%;
+  height: auto;
+  margin: 10px 0;
+  display: flex;
+}
+
+
