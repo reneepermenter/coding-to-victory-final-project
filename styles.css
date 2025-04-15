@@ -17,12 +17,18 @@ nav li {
   list-style-type: none;
 }
 nav a {
-  text-decoration: none;
+  color: rgb(10, 181, 232);
+}
+nav ul li a:hover {
+color: white;  text-decoration: underline;
 }
 header {
   background-color: rgb(14, 16, 15);
   text-align: center;
   width: 100%;
+}
+footer{
+  text-align: center;
 }
 h1 {
   justify-content: center;
@@ -42,6 +48,7 @@ main {
 .ytframe {
   width: 50%;
   height: 50vh;
+  margin: 20px 40px;
   text-align: center;
 }
 
@@ -50,6 +57,7 @@ main {
   height: 50vh;
 }
 .mapcontainer {
+  margin: 20px 40px;
   display: flex;
 }
 p {
