@@ -57,6 +57,9 @@ p {
   justify-content: center;
   align-content: center;
   margin: 0 10%;
+  font-size: xx-large;
+  font-weight: bolder;
+  fon
 }
 
 .p1 {
@@ -66,8 +69,31 @@ p {
 
 form {
   width: 50%;
+  margin-top: 10px;
   display: flex;
-  justify-content: center;
-  align-content: center;
+  /* justify-content: center; */
+  /* align-content: center; */
   flex-direction: column;
+  text-align: center;
 }
+.earrings {
+  width: 35%;
+  height: auto;
+  display: flex;
+  margin: 10px 0;
+}
+.racing {
+  width: 35%;
+  height: auto%;
+  margin: 10px 0;
+  align-self: flex-end;
+  display: flex;
+}
+.welding {
+  width: 35%;
+  height: auto;
+  margin: 10px 0;
+  display: flex;
+}
+
+
