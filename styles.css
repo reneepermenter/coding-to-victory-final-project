@@ -20,14 +20,15 @@ nav a {
   color: rgb(10, 181, 232);
 }
 nav ul li a:hover {
-color: white;  text-decoration: underline;
+  color: white;
+  text-decoration: underline;
 }
 header {
   background-color: rgb(14, 16, 15);
   text-align: center;
   width: 100%;
 }
-footer{
+footer {
   text-align: center;
 }
 h1 {
@@ -44,7 +45,9 @@ main {
   width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
+
 .ytframe {
   width: 50%;
   height: 50vh;
@@ -67,7 +70,6 @@ p {
   margin: 0 10%;
   font-size: xx-large;
   font-weight: bolder;
-  fon
 }
 
 .p1 {
@@ -75,14 +77,12 @@ p {
   display: flex;
 }
 
-form {
+.form {
   width: 50%;
-  margin-top: 10px;
+  margin: 10px auto;
   display: flex;
-  /* justify-content: center; */
-  /* align-content: center; */
+  justify-content: center;
   flex-direction: column;
-  text-align: center;
 }
 .earrings {
   width: 35%;
@@ -92,7 +92,7 @@ form {
 }
 .racing {
   width: 35%;
-  height: auto%;
+  height: auto;
   margin: 10px 0;
   align-self: flex-end;
   display: flex;
@@ -103,5 +103,9 @@ form {
   margin: 10px 0;
   display: flex;
 }
-
-
+input,
+textarea,
+button {
+  margin-top: 10px;
+  padding: 50px;
+}
