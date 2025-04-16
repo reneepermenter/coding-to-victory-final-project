@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="about" href="about.html" />
     <link rel="contact" href="contact.html" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
   </head>
   <body>
     <header>
@@ -22,12 +27,27 @@
     <main>
       <form class="form" name="contact" method="POST" data-netlify="true">
         <input type="hidden" name="form-name" value="contact" />
-        <input type="text" name="name" placeholder="Your Name" required />
-        <input type="email" name="email" placeholder="Your Email" required />
-        <textarea name="message" placeholder="Your Message"></textarea>
+        <input type="text" name="name" placeholder="Name" required />
+        <input type="email" name="email" placeholder="Email" required />
+        <textarea name="message" placeholder="Message"></textarea>
         <button type="submit">Send</button>
       </form>
     </main>
-    <footer></footer>
+    <footer>
+      <nav>
+        <a
+          href="https://www.facebook.com/NayNay337691"
+          class="fa fa-facebook"
+        ></a>
+        <a
+          href="www.linkedin.com/in/renee-permenter-91ba701b9"
+          class="fa fa-linkedin"
+        ></a>
+        <a
+          href="mailto:reneepermenter@gmail.com?subject=Hello"
+          class="fa fa-envelope"
+        ></a>
+      </nav>
+    </footer>
   </body>
 </html>
